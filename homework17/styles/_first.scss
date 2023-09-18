@@ -1,0 +1,107 @@
+.first__section {
+    max-width: 1600px;
+    margin: 0 auto;
+    max-height: 911px;
+    padding-top: 54px;
+}
+
+.first__container {
+    width: 1236px;
+    height: 811px;
+    margin: 0 auto;
+    padding-left: 50px;
+    position: relative;
+    .first__side {
+        padding-top: 75px;
+      }
+       .first__side h2 {
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.145em;
+        color: #C72535;
+        text-transform: uppercase;       
+      }
+       .first__side h3 {
+        padding-top: 12px;
+        font-family: Hind Siliguri;
+        font-size: 61px;
+        font-weight: 400;
+        line-height: 73px;
+        color: $text-color;
+      }
+       .first__side span {
+        background-color: #c6e3fa;
+        font-family: Hind Siliguri;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 73px;  
+        color: #1769a8;     
+      }
+        .first__side p {
+        padding-top: 29px;
+        font-family: Hind Siliguri;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        color: $text-color;
+    }
+        .first__shop {
+            display: flex;
+
+        }
+            .first__button {
+            padding-top: 36px;
+        }
+                .first__button button {
+                    border: none;
+                    width: 151px;
+                    height: 58px;
+                    color: $primary-color;
+                    background-color: $secondary-color;
+                    cursor: pointer;
+                }
+                .first__button button:hover {
+                    transform: scale(1.1);
+                }
+                .first__shop h4 {
+                    padding-top: 51px;
+                    padding-left: 31px;
+                    color: $text-color;
+                    font-family: Hind Siliguri;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 27px; 
+                }
+                .first__shop h5 {
+                    padding-top: 51px;
+                    padding-left: 18px;
+                    color: $text-color;
+                    text-align: center;
+                    font-family: Hind Siliguri;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 27px;
+                    opacity: 0.5;
+                }
+                .card {
+                    z-index: 2;
+                    position: absolute;
+                    padding: 76px 118px;
+                    display: flex;
+                    gap: 84px;
+                    background-color: #fff;
+                    width: 1140px;
+                    height: 237px;
+                    bottom: 0;
+                    box-shadow: 0px -1.73968px 1.20532px 0px rgba(174, 174, 174, 0.02), 0px 0.19008px 4.14347px 0px rgba(174, 174, 174, 0.03), 0px 6.77214px 9.61331px 0px rgba(174, 174, 174, 0.04), 0px 19.8401px 19.14056px 0px rgba(174, 174, 174, 0.05), 0px 43.751px 36.44142px 0px rgba(174, 174, 174, 0.06), 0px 100px 80px 0px rgba(174, 174, 174, 0.08);;
+                } 
+                .second__side_img {
+                    z-index: 1;
+                    position: absolute;
+                    top: 0;
+                    left: 630px;
+                }               
+}

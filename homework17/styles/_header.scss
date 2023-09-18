@@ -1,0 +1,45 @@
+.header {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        padding-top: 30px;
+    }
+    &__title ul {
+        padding-top: 33px;
+        display: flex;
+        gap: 40px;
+    }
+    &__title li {
+        display: flex;
+        gap: 8px;
+    }
+    &__title img {
+        cursor: pointer;
+    }
+    &__title a {
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+        color: $text-color;
+    }
+    &__items {
+        display: flex;
+        gap: 30px;
+        }
+        &__search {
+            padding-top: 35px;
+            cursor: pointer;
+        }
+        &__basket {
+            padding-top: 30px;
+            cursor: pointer;
+        }
+        &__profile {
+            padding-top: 25px;
+            cursor: pointer;
+        }
+}
+

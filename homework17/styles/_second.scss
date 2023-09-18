@@ -1,0 +1,134 @@
+.second__section {
+    max-width: 1600px;
+    height: 885px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+.second__container {
+    width: 1140px;
+    max-height: 745px;
+    margin: 0 auto;
+    position: relative;
+    .first__basket{
+        position: absolute;
+        left: 233.5px;
+        top: -15px;
+        cursor: pointer;
+    }
+    .second__basket{
+        position: absolute;
+        right: 273.5px;
+        top: -15px;
+        cursor: pointer;   
+    }
+    .card__row {
+        display: flex;
+        gap: 37px;
+    }
+        .card {
+            width: 548px;
+            height: 248px;
+            border: none;
+            display: flex;
+            gap: 30px;
+        }
+            .card__second_side h3{
+                padding-top: 31.5px;
+                font-family: Hind Siliguri;
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 40px;
+                color: $text-color;
+            }
+            .card__second_side p {
+                padding-top: 9px;
+                font-family: Hind Siliguri;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                color: $text-color;
+                opacity: 60%;
+            }
+            .card__price {
+                display: flex;
+                gap: 2px;
+            }
+
+            .card__price h4 {
+                padding-top: 20px;
+                font-family: Hind Siliguri;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 27px;
+                color: $text-color;
+            }
+            .card__price p {
+                padding-top: 24px;
+                color: $text-color;
+                opacity: 50%;
+            }
+            .card__price h5 {
+                padding-top: 20px;
+                font-family: Hind Siliguri;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 27px;
+                color: $text-color;
+                opacity: 50%;
+            }
+            .card__stars {
+                padding-top: 15px;
+            }
+    .rectangle__row {
+        padding-top: 160px;
+        display: flex;
+        gap: 30px;
+    }
+        .rectangle {
+            width: 555px;
+            height: 296px;
+            border: 1px solid rgba(0, 0, 0, 0.10);
+            background: linear-gradient(257deg, #008BF0 -13.2%, #D943C9 130.95%);
+        }
+            .rectangle p {
+                padding-top: 75px;
+                padding-left: 35px;
+                color: #F4F9FC;
+                font-family: Hind Siliguri;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 27px;
+                text-transform: uppercase;                
+            } 
+            .rectangle h2 {
+                padding-top: 5px;
+                padding-left: 35px;
+                color: #F4F9FC;
+                font-family: Hind Siliguri;
+                font-size: 31px;
+                font-weight: 600;
+                line-height: 40.3px;
+            }  
+            .rectangle h3 {
+                padding-top: 7px;
+                padding-left: 35px;
+                color: #F4F9FC;
+                font-family: Hind Siliguri;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 27px;
+                text-transform: uppercase; 
+            }
+            .drone {
+                position: absolute;
+                left: 252px;
+                top: 390px;
+            }
+            .camera {
+                position: absolute;
+                right: 7px;
+                top: 440px;
+            }             
+
+}

@@ -1,0 +1,158 @@
+.fifth__section {
+    max-width: 1600px;
+    height: 1220px;
+    margin: 0 auto;
+}
+
+.fifth__container {
+    width: 1140px;
+    height: 1014;
+    position: relative;
+    margin: 0 auto;
+}
+    .first__box {
+        position: absolute;
+        top: 268px;
+        left: 0;
+        width: 360px;
+        height: 330px;
+        background: #fff;
+        box-shadow: 0px 2.76726px 2.21381px 0px rgba(192, 192, 192, 0.02), 0px 6.6501px 5.32008px 0px rgba(192, 192, 192, 0.03), 0px 12.52155px 10.01724px 0px rgba(192, 192, 192, 0.04), 0px 22.33631px 17.86905px 0px rgba(192, 192, 192, 0.04), 0px 41.77761px 33.42209px 0px rgba(192, 192, 192, 0.05), 0px 100px 80px 0px rgba(192, 192, 192, 0.07);
+    }
+    .box__row {
+        padding-top: 35px;
+        padding-left: 35px;
+        display: flex;
+        gap: 2px;
+    }
+    .box__row_title {
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px; 
+    }
+    .box__row_descr {
+        color: $text-color;
+        opacity: 0.5;
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+    .stars3 {
+        position: absolute;
+        z-index: 78;
+        padding-left: 35px;
+    }
+    .card__icons2 {
+        display: flex;
+        padding-top: 195px;
+        justify-content: center;
+        gap: 70px;
+    }
+    .card__icons2 img {
+        cursor: pointer;
+    }
+    .phone {
+        position: absolute;
+        z-index: 77;
+        top: 70px;
+        left: 67px; 
+    }
+    .second__box {
+        position: absolute;
+        top: 268px;
+        left: 390px;
+        width: 360px;
+        height: 252px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #fff;
+    }
+    .second__box img {
+        padding: 18px 26px;
+    }
+    .third__box {
+        position: absolute;   
+        top: 268px;
+        right: 0;
+        width: 360px;
+        height: 432px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #fff; 
+    }
+    .third__box img {
+        padding-top: 36px;
+        padding-left: 26px;
+    }
+    .forth__box {
+        position: absolute; 
+        top: 629px;
+        left: 0;
+        width: 360px;
+        height: 456px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #fff;
+    }
+    .forth__box img {
+        padding-top: 53px;
+        padding-left: 30px;
+    }
+    .fifth__box {
+        position: absolute; 
+        top: 550px;
+        left: 390px;
+        width: 360px;
+        height: 252px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #fff;
+    }
+    .sixth__box {
+        position: absolute; 
+        top: 833px;
+        left: 390px;
+        width: 360px;
+        height: 252px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #fff;
+    }
+    .sixth__box img {
+        padding: 27px 39px;
+    }
+    .last__box {
+        position: absolute;
+        top: 730px;
+        right: 0;
+        width: 360px;
+        height: 354px;  
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #fff;
+    }
+.fifth__container h3 {
+    padding-left: 510px;
+    padding-top: 56px;
+    color: #C72535;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2.03px;
+    opacity: 0.6;
+    text-transform: uppercase;   
+}
+.fifth__container h2 {
+    color: $text-color;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 44px;
+    font-weight: 600;
+}
+.fifth__container h4 {
+    padding-top: 7px;
+    color: $text-color;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+    line-height: 24px; 
+}

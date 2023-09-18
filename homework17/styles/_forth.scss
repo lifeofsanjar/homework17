@@ -1,0 +1,391 @@
+.forth__section {
+    max-width: 1600px;
+    height: 1450px;
+    margin: 0 auto;
+}
+
+.forth__container {
+    width: 1140px;
+    height: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+    .forth__container p {
+        padding-top: 60px;
+        color: #C72535;
+        text-align: center;
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 500;
+        opacity: 0.6;
+        letter-spacing: 2.03px;
+        text-transform: uppercase;
+        }
+    .forth__container h3 {
+        color: $text-color;
+        text-align: center;
+        font-family: Hind Siliguri;
+        font-size: 44px;
+        font-weight: 600;
+    }
+    .forth__container ul {
+        padding-top: 22px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .forth__container a {
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        opacity: 0.6;
+        font-weight: 500;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .forth__container a:hover {
+        color: #C72535;
+        opacity: 1;
+    }
+    .product__row {
+        padding-top: 50px;
+        display: flex;
+        gap: 30px;
+    }
+    .product__card {
+        width: 360px;
+        height: 343px;
+        background: #FFF;
+        box-shadow: 0px 2.76726px 2.21381px 0px rgba(191, 191, 191, 0.02), 0px 6.6501px 5.32008px 0px rgba(191, 191, 191, 0.03), 0px 12.52155px 10.01724px 0px rgba(191, 191, 191, 0.04), 0px 22.33631px 17.86905px 0px rgba(191, 191, 191, 0.04), 0px 41.77761px 33.42209px 0px rgba(191, 191, 191, 0.05), 0px 100px 80px 0px rgba(191, 191, 191, 0.07);
+    }
+    .product__card h2 {
+        left: 35px;
+        top: 290px;
+        z-index: 9;
+        position: absolute;
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    .product__img {
+        z-index: 8;
+        position: absolute;
+        left: 37px;
+        top: 280px;
+    }
+    .card__body {
+        position: absolute;
+        top: 594px;
+        width: 360px;
+        height: 160px;
+        background-color: #FAFAFA;
+    }
+    .card__icons {
+        padding-top: 28px;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+    }
+    .card__icons img {
+        cursor: pointer;
+    }
+    .card__items {
+        display: flex;
+        gap: 75px;
+    }
+    .card__items_price {
+        padding-left: 35px;
+        display: flex;
+        gap: 2px;
+    }
+    .card__items_price h3 {
+        padding-top: 42px;
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 27px;
+    }
+    .card__items_price img {
+        padding-top: 42px;
+    }
+    .card__items_price h4 {
+        padding-top: 41px;
+        color: $text-color;
+        opacity: 0.5;
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 27px; 
+    }
+    .card__items_stars {
+        padding-left: 35px;
+    }
+    .items__row2 {
+        padding-top: 59px;
+    }
+    .product__cart {
+        width: 360px;
+        height: 503px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #FFF;
+    }
+
+    .product__cart h2 {
+        padding-top: 35px;
+        padding-left: 35px;
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    .product__column {
+        padding-top: 12px;
+        padding-left: 58px;
+    }
+    .product__cart h3 {
+        padding-right: 55px;
+        padding-top: 72px;
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 25px;
+        font-weight: 600;
+    }    
+
+    .product__keyboard {
+        padding-top: 50px;
+        padding-left: 47px;
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .product__keyboard h3 {
+        padding-top: 120px;
+        padding-right: 160px;
+    }
+    .value__row {
+        display: flex;
+        padding-left: 35px;
+        gap: 2px;
+    }   
+    .value__row h4 {
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+    .value__row h5 {
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 300;
+        opacity: 0.5;
+        line-height: 27px;
+    }
+    .value__stars {
+        padding-left: 35px;
+    }
+    .product__cart2 {
+        width: 360px;
+        height: 503px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #FFF;
+    }
+    .product__cart2 h2 {
+        padding-top: 35px;
+        padding-left: 35px;
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    .product__column2 {
+        padding-top: 50px;
+        padding-left: 47px;
+    }
+    .product__cart2 h3 {
+        padding-right: 140px;
+        padding-top: 126px;
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .value__row2 {
+        display: flex;
+        padding-left: 35px;
+        gap: 2px;
+    }   
+    .value__row2 h4 {
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+    .value__row2 h5 {
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 300;
+        opacity: 0.5;
+        line-height: 27px;
+    }
+    .value__stars2 {
+        padding-left: 35px;
+    }
+    .product__row2 {
+        padding-top: 30px;
+        display: flex;
+        gap: 30px; 
+    }
+    .product__cart3 {
+        width: 360px;
+        height: 503px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #FFF;
+    }
+    .product__cart3 h2 {
+        padding-top: 35px;
+        padding-left: 35px;
+        color: $text-color;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    .product__column4 {
+        position: absolute;
+        top: 815px;
+        left: 15px;
+    }
+    .product__column5 {
+        position: absolute;
+        top: 835px;
+        left: 420px;
+    }
+    .product__column6 {
+        padding-top: 49px;
+        padding-left: 47px;
+    }
+    .product__cart3 h3 {
+        padding-top: 316px;
+        padding-left: 35px;
+        font-family: Hind Siliguri;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        color: $text-color;
+        text-align: left;
+    }
+    .value__row3 {
+        display: flex;
+        padding-left: 35px;
+        gap: 2px;
+    }
+    .value__row3 h5 {
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 27px;
+        color: $text-color;
+        opacity: 0.5;
+    }
+    .value__stars3 {
+        padding-left: 35px;
+    }
+
+    .product__cart4 {
+        width: 360px;
+        height: 503px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #FFF;
+    }
+    .product__cart4 h2{
+        padding-left: 35px;
+        padding-top: 35px;
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 27px;
+        color: $text-color;
+    }
+    .product__cart4 h3 {
+        padding-top: 316px;
+        padding-left: 35px;
+        font-family: Hind Siliguri;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        color: $text-color;
+        text-align: left;
+    }
+    .value__row4 {
+        display: flex;
+        padding-left: 35px;
+        gap: 2px;
+    }
+    .value__row4 h5 {
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 27px;
+        color: $text-color;
+        opacity: 0.5;
+    }
+    .value__stars4 {
+        padding-left: 35px;
+    }
+    .product__cart5 {
+        width: 360px;
+        height: 503px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: #FFF;
+    }
+    .product__cart5 h3 {
+        padding-top: 68px;
+        padding-left: 35px;
+        font-family: Hind Siliguri;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        color: $text-color;
+        text-align: left;
+    }
+    .value__row5 {
+        display: flex;
+        padding-left: 35px;
+        gap: 2px;
+    }
+    .value__row5 h5 {
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 27px;
+        color: $text-color;
+        opacity: 0.5;
+    }
+    .value__stars5 {
+        padding-left: 35px;
+    }
+    .view {
+        padding-top: 56px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        &__text {
+            font-family: Hind Siliguri;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 23px;
+            color: $text-color;
+            text-transform: uppercase;
+        }
+    }
+    

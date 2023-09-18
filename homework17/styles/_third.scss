@@ -1,0 +1,107 @@
+.third__section {
+    max-width: 1600px;
+    height: 930px;
+    margin: 0 auto;
+    padding-top: 111px;
+}
+.third__container{
+    width: 1235px;
+    height: 870px;
+    margin: 0 auto;
+    position: relative;
+}
+    .woman__picture img{
+        background: url(../images/Vector.png), #247CC0 0px 0.243px / 70% 40.06% no-repeat;
+        border-radius: 37%;
+        position: absolute;
+        z-index: 4;
+        top: -50px;
+    }
+
+    .title__section {
+        position: absolute;
+        left: 715px;
+        top: 0;
+    }
+        .title {
+            color: #C72535;
+            opacity: 0.6;
+            font-family: Hind Siliguri;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 2.03px;
+            text-transform: uppercase;
+        }
+        .descr {
+            color:#030D15;
+            font-family: Hind Siliguri;
+            font-size: 44px;
+            font-weight: 600;
+        }
+    .descr__section {
+        position: absolute;
+        width: 1600px;
+        height: 632px;
+        top: 121px;
+        left: -180px;
+        background-color: #F4F9FC;
+    }  
+        .descr__section p {
+            padding-top: 84px;
+            padding-left: 895px;
+            color: $text-color;
+            opacity: 0.6;
+            font-family: Hind Siliguri;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px; 
+        }  
+        .facts {
+            padding-top: 45px;
+            padding-left: 895px;
+        }
+        .first__fact {
+            display: flex;
+            gap: 13px;
+        }
+        .second__fact {
+            display: flex;  
+            gap: 13px;
+        }
+        .second__fact h3 {
+            padding-top: 20px;
+        }
+        .second__fact img {
+            padding-bottom: 10px;
+        }
+        .third__fact {
+            display: flex;
+            gap: 13px;
+        }
+        .third__fact h3 {
+            padding-top: 20px;
+        }
+        .third__fact img{
+            padding-top: 20px;
+        }
+        .forth__fact {
+            display: flex;
+            gap: 13px;
+        }
+        .forth__fact h3 {
+            padding-top: 20px;
+        }
+        .forth__fact img {
+            padding-top: 20px;
+        }
+        .last__fact {
+            display: flex; 
+            gap: 13px;    
+        }
+        .last__fact h3{
+            padding-top: 20px;   
+        }
+        .last__fact img {
+            padding-top: 20px;   
+        }
+    
